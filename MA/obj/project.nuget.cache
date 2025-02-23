@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aggEWcOb2D2Z1deqZdaBEPSiBue4pj1MmT2rw9vtBJS8MECYX2MDqPxa0knB4bAMy11RvCz08SaNiW0gkuiLNQ==",
+  "success": true,
+  "projectFilePath": "/home/karasucyber/Projeto_MA/MA/MA.csproj",
+  "expectedPackageFiles": [
+    "/home/karasucyber/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.2/microsoft.entityframeworkcore.tools.9.0.2.nupkg.sha512",
+    "/home/karasucyber/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/karasucyber/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512",
+    "/home/karasucyber/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
