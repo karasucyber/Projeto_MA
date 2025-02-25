@@ -1,0 +1,23 @@
+@model List<MA.Models.Student>
+
+<main>
+    <section>
+        <form asp-action="addSudent" asp-controller="Students">
+            <label>Name</label>
+            <input id="Name" name="Name"/>
+            <spam asp-validation-for action="Name"></spam>
+
+            <label>Cpf</label>
+            <input id="Cpf" name="Cpf">
+            <spam asp-validation action="Cpf"></spam>
+
+
+            <label>Aniversário</label>
+            <input id="DateBirth" name="DateBirth">
+            <spam asp-validation action="DateBirth"></spam>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+</main>

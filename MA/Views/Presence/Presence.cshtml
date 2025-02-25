@@ -1,13 +1,34 @@
-@{
+@model List<MA.Models.Student> 
 
-}
+<main>
 
-    <main>
-        <section>
-            <h2>Seção Principal</h2>
-            <p>Este é um exemplo de estrutura HTML bem organizada.</p>
-        </section>
-    </main>
+    <section>
+        <h2>Lista de Alunos</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Data de Nascimento</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Name</td>
+                        <td>@student.Cpf</td>
+                        <td>@student.DateBirth.ToString("dd/MM/yyyy")</td>
+                      <td>
+                        <form asp-action="rmStudant" method="post">
+                            <input type="hidden" name="Cpf" value="@student.Cpf">
+                            <button type="submit">excluir</button>
+                        </form>
+                      </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </section>
 
-   
-
+</main>
