@@ -12,7 +12,6 @@ namespace  MA.Models
         [Required]
         public int StudentId { get; set; }
         
-        [ForeignKey('StudentId')]
         public Student? student {get; set;}
     }
     
