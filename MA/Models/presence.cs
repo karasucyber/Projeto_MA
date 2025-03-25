@@ -22,7 +22,7 @@ namespace MA.Models
         [Required]
         public bool Check { get; set; }  
 
-        public int StudentId { get; set; } // O ID do estudante corretamente nomeado
+        public int StudentId { get; set; } 
 
         [ForeignKey("StudentId")]
         public Student? Student { get; set; }  // Agora a referência está correta

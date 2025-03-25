@@ -7,7 +7,7 @@ namespace MA.Models
     public class Student 
     {
         [Key]
-        public int Id { get; set; }  // Nome corrigido para Id
+        public int Id { get; set; }  
 
         [Required]
         public string Name { get; set; } = string.Empty; 
@@ -19,6 +19,6 @@ namespace MA.Models
         [Required]
         public DateTime DateBirth { get; set; } 
 
-        public List<PresenceViewModel>? Presences { get; set; }  // Relacionamento correto
+        public List<PresenceViewModel>? Presences { get; set; }  
     }
 }
